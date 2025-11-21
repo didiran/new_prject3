@@ -1,0 +1,12 @@
+name: CI check
+on: [push, pull_request]
+
+jobs:
+  check-files:
+    run-on:ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Check files
+      run: |
+          [ -f "README.md"] || exit 1
+
