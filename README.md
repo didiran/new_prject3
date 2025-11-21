@@ -7,3 +7,4 @@
 - 📝 Конспекты в папке notes/
 - 🚀 GitHub Actions
 ## Footer Section
+## Header Section
